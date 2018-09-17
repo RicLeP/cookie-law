@@ -1,0 +1,22 @@
+{
+	"name": "riclep/cookie-law",
+	"description": "A very basic cookie law package for legacy Laravel 4 projects",
+	"keywords": ["laravel", "laravel 4", "cookies", "cookie law", "eu"],
+	"license": "MIT",
+    "authors": [
+        {
+            "name": "Richard Le Poidevin",
+            "email": "ric@wearebwi.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "RicLeP\\CookieLaw\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
