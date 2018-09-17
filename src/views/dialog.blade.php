@@ -2,8 +2,8 @@
 @if (!isset($_COOKIE[Config::get('cookie-law::cookie-law.cookie_name')]))
 	<div class="cookie-law js-cookie-law-dialog">
 		<div class="cookie-law__inner">
-			<div>
-				<p>{{ trans('cookie-law::lang.message') }}</p>
+			<div class="cookie-law__message">
+				{{ trans('cookie-law::lang.message') }}
 			</div>
 
 			<button class="cookie-law__button js-cookie-law-accept" type="button">
