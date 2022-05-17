@@ -29,9 +29,7 @@
 				var dialog = document.querySelector('.js-cookie-law-dialog');
 				dialog.classList.add('cookie-law--accepted')
 
-				dataLayer.push({
-					'event': 'Pageview',
-				});
+				location.reload();
 			}
 
 			function rejectCookies() {

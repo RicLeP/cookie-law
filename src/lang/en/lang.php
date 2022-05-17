@@ -11,5 +11,6 @@ return array (
 		'Essential cookies' => '',
 		'Analytics cookies' => '',
 	),
-	'saved' => 'Your preferences have been saved'
+	'accepted' => 'You are currently accepting non-essential cookies, you can change this below.',
+	'rejected' => 'You are currently rejecting non-essential cookies, you can change this below.',
 );

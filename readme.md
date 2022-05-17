@@ -46,7 +46,9 @@ return array (
 		'' => '', 
 		'' => '', 
 		//e.g. 'Analytics cookies' => ''
-	)
+	),
+	'accepted' => '',
+	'rejected' => '',
 );
 ```
 
