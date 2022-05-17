@@ -22,9 +22,14 @@ Include the Blade view in your template near the bottom.
 
 `@include('cookie-law::dialog')`
 
+
 If you want to edit anything then publish the config file
 
 `php artisan config:publish riclep/cookie-law`
+
+To create the cookies page copy the controller and view stubs from the package and adjust them to fit the site. You can then add the following line to the routes file: 
+
+`Route::get(Config::get('cookie-law::cookie-law.cookie_url'), 'CookiesController@view');`
 
 To override the wording create a language file in `app/lang/packages/{locale}/cookie-law/lang.php` with the contents:
 ```php
@@ -33,6 +38,15 @@ To override the wording create a language file in `app/lang/packages/{locale}/co
 return array (
 	'message' => '',
 	'accept-button' => '',
+	'reject-button' => '',
+	'customise-button' => '',
+
+	'details' => '',
+	'categories' => array(
+		'' => '', 
+		'' => '', 
+		//e.g. 'Analytics cookies' => ''
+	)
 );
 ```
 

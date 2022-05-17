@@ -10,4 +10,9 @@ return array(
 	 * Duration in days
 	 */
 	'cookie_lifetime' => 365 * 20,
+	/*
+	 * Link to the cookies page
+	 */
+	'cookie_url' => '/cookies',
+
 );
