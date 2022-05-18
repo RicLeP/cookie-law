@@ -8,8 +8,6 @@ return array (
 
 	'details' => 'This website uses cookies in order to provide you with the optimal experience',
 	'categories' => array(
-		'Essential cookies' => '',
-		'Analytics cookies' => '',
 	),
 	'accepted' => 'You are currently accepting non-essential cookies, you can change this below.',
 	'rejected' => 'You are currently rejecting non-essential cookies, you can change this below.',
